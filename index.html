@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reto Acuático 2026 | Evento de Natación</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      background: #f4fbff;
+      color: #1f2d3d;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0066a6, #00a9c7);
+      color: white;
+      padding: 45px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      max-width: 850px;
+      margin: 0 auto 18px;
+      font-size: 1.05rem;
+    }
+
+    .datos {
+      background: rgba(255, 255, 255, 0.18);
+      border-radius: 14px;
+      padding: 15px;
+      max-width: 850px;
+      margin: 20px auto 0;
+      text-align: left;
+    }
+
+    nav {
+      background: #003f66;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+    }
+
+    nav a {
+      display: block;
+      padding: 14px 18px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background: #00a9c7;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 28px;
+      padding: 28px;
+      border-radius: 18px;
+      box-shadow: 0 4px 15px rgba(0, 65, 105, 0.12);
+    }
+
+    h2 {
+      color: #0066a6;
+      margin-bottom: 14px;
+      border-left: 6px solid #00a9c7;
+      padding-left: 10px;
+    }
+
+    h3 {
+      color: #003f66;
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
+
+    .hero-img,
+    .section-img {
+      width: 100%;
+      max-height: 360px;
+      object-fit: cover;
+      border-radius: 16px;
+      margin: 18px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+      margin-top: 15px;
+    }
+
+    .card {
+      background: #eef9ff;
+      border-left: 5px solid #00a9c7;
+      padding: 18px;
+      border-radius: 14px;
+    }
+
+    ul, ol {
+      margin-left: 22px;
+      margin-top: 10px;
+    }
+
+    .boton {
+      display: inline-block;
+      background: #0066a6;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-top: 12px;
+      font-weight: bold;
+    }
+
+    .boton:hover {
+      background: #00a9c7;
+    }
+
+    .video-box {
+      background: #e8f7ff;
+      border: 2px dashed #00a9c7;
+      padding: 22px;
+      border-radius: 16px;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    footer {
+      background: #003f66;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 20px;
+    }
+
+    footer a {
+      color: #aeefff;
+    }
+  </style>
+</head>
+<body>
+  <header id="inicio">
+    <h1>Reto Acuático 2026</h1>
+    <p>Evento deportivo de natación creado para promover la participación, la disciplina, la convivencia y el desarrollo físico de los estudiantes a través de competencias recreativas y formativas.</p>
+    <div class="datos">
+      <p><strong>Nombre:</strong> José Antonio Torres Ibarra</p>
+      <p><strong>Grupo:</strong> [Escribe aquí tu grupo]</p>
+      <p><strong>Fecha de elaboración:</strong> [Escribe aquí la fecha]</p>
+      <p><strong>Deporte elegido:</strong> Natación</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#convocatoria">Convocatoria</a></li>
+      <li><a href="#inscripcion">Inscripción</a></li>
+      <li><a href="#calendario">Calendario</a></li>
+      <li><a href="#reglamento">Reglamento</a></li>
+      <li><a href="#promocion">Promoción</a></li>
+      <li><a href="#referencias">Referencias</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Bienvenida al evento</h2>
+      <p>El <strong>Reto Acuático 2026</strong> es una propuesta deportiva enfocada en la natación como una actividad completa, saludable y formativa. La finalidad del evento es reunir a estudiantes interesados en mejorar sus habilidades dentro del agua, competir de manera respetuosa y fortalecer valores como la constancia, el trabajo en equipo, la responsabilidad y la superación personal.</p>
+      <img class="hero-img" src="https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=1200&q=80" alt="Nadador en una alberca durante una competencia" />
+    </section>
+
+    <section id="convocatoria">
+      <h2>1. Convocatoria del evento</h2>
+      <p>La convocatoria está dirigida a estudiantes que deseen participar en una competencia de natación en un ambiente seguro, organizado y motivador. El evento busca fomentar la práctica deportiva y reconocer el esfuerzo de los participantes, sin importar si tienen experiencia previa o si apenas están comenzando en esta disciplina.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Objetivo</h3>
+          <p>Promover la natación como deporte de formación física, mental y social.</p>
+        </div>
+        <div class="card">
+          <h3>Participantes</h3>
+          <p>Estudiantes inscritos que cumplan con los requisitos básicos de seguridad.</p>
+        </div>
+        <div class="card">
+          <h3>Lugar</h3>
+          <p>Alberca o centro acuático asignado por la institución.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="inscripcion">
+      <h2>2. Inscripción y requisitos</h2>
+      <p>Para participar, los interesados deberán realizar un registro previo. Este proceso permite organizar las categorías, horarios y carriles de competencia, además de garantizar que cada participante conozca las reglas básicas del evento.</p>
+      <h3>Requisitos principales</h3>
+      <ul>
+        <li>Registrarse antes de la fecha límite indicada.</li>
+        <li>Presentarse con traje de baño deportivo, gorra y goggles.</li>
+        <li>Llegar al menos 30 minutos antes de la competencia.</li>
+        <li>Respetar las indicaciones de jueces, organizadores y personal de seguridad.</li>
+        <li>Contar con autorización en caso de que la institución lo solicite.</li>
+      </ul>
+      <a class="boton" href="https://forms.google.com" target="_blank">Formulario de inscripción</a>
+    </section>
+
+    <section id="calendario">
+      <h2>3. Calendario de actividades</h2>
+      <p>El calendario del evento ayuda a mantener una organización clara para participantes, maestros, jueces y asistentes. Las actividades estarán distribuidas en diferentes momentos para facilitar el registro, calentamiento, competencias y premiación.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>8:00 a.m.</h3>
+          <p>Registro y confirmación de participantes.</p>
+        </div>
+        <div class="card">
+          <h3>8:30 a.m.</h3>
+          <p>Calentamiento general y explicación de reglas.</p>
+        </div>
+        <div class="card">
+          <h3>9:00 a.m.</h3>
+          <p>Inicio de competencias por categoría.</p>
+        </div>
+        <div class="card">
+          <h3>11:30 a.m.</h3>
+          <p>Premiación y cierre del evento.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="reglamento">
+      <h2>4. Reglamento básico</h2>
+      <p>El reglamento tiene como propósito asegurar una competencia ordenada, justa y segura. Todos los participantes deberán conocer las normas antes de iniciar, ya que estas ayudan a evitar accidentes y permiten que el evento se desarrolle correctamente.</p>
+      <ol>
+        <li>Respetar el carril asignado durante toda la prueba.</li>
+        <li>No empujar, distraer o interferir con otros competidores.</li>
+        <li>Esperar la señal de salida para iniciar la prueba.</li>
+        <li>Seguir las indicaciones de los jueces y organizadores.</li>
+        <li>Usar equipo adecuado para la práctica de natación.</li>
+        <li>Mantener una actitud deportiva y respetuosa.</li>
+      </ol>
+      <a class="boton" href="https://www.worldaquatics.com" target="_blank">Consultar reglas oficiales de natación</a>
+    </section>
+
+    <section id="promocion">
+      <h2>5. Promoción del evento</h2>
+      <p>La promoción del evento es importante para invitar a más estudiantes a participar y para dar a conocer los beneficios de la natación. Este deporte ayuda a mejorar la resistencia, la coordinación, la respiración, la fuerza y la confianza personal.</p>
+      <img class="section-img" src="https://images.unsplash.com/photo-1600965962361-9035dbfd1c50?auto=format&fit=crop&w=1200&q=80" alt="Alberca deportiva con carriles de natación" />
+      <div class="video-box">
+        <h3>Video promocional propio</h3>
+        <p>Aquí puedes insertar tu video personal sobre el evento. Puedes grabarte explicando la invitación, mostrando una alberca, enseñando material de natación o presentando una pequeña demostración.</p>
+        <p><strong>Ejemplo de texto para tu video:</strong> “Te invitamos al Reto Acuático 2026, un evento de natación donde podrás competir, divertirte y demostrar tu esfuerzo dentro del agua. Inscríbete y forma parte de esta experiencia deportiva.”</p>
+      </div>
+    </section>
+
+    <section id="beneficios">
+      <h2>Beneficios de participar</h2>
+      <p>Además de ser una competencia, este evento busca que los estudiantes reconozcan la importancia de mantenerse activos. La natación es considerada una actividad muy completa porque involucra gran parte del cuerpo y puede practicarse con fines recreativos, escolares o competitivos.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Salud física</h3>
+          <p>Ayuda a desarrollar resistencia, fuerza muscular y coordinación.</p>
+        </div>
+        <div class="card">
+          <h3>Disciplina</h3>
+          <p>Favorece la constancia, la concentración y el esfuerzo personal.</p>
+        </div>
+        <div class="card">
+          <h3>Convivencia</h3>
+          <p>Permite compartir experiencias con otros estudiantes en un ambiente sano.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="referencias">
+      <h2>Referencias y enlaces de apoyo</h2>
+      <p>Para complementar la información del evento, se pueden consultar los siguientes sitios:</p>
+      <ul>
+        <li><a href="https://www.worldaquatics.com" target="_blank">World Aquatics - Reglas e información oficial de natación</a></li>
+        <li><a href="https://www.olympics.com" target="_blank">Olympics - Información general sobre natación olímpica</a></li>
+        <li><a href="https://www.gob.mx/cultura-fisica-y-deporte" target="_blank">CONADE - Cultura física y deporte en México</a></li>
+        <li><a href="https://www.google.com/maps" target="_blank">Google Maps - Ubicación del evento</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Reto Acuático 2026 | Página creada como actividad académica para la difusión de un evento deportivo.</p>
+    <p>Autor: José Antonio Torres Ibarra</p>
+  </footer>
+</body>
+</html>
